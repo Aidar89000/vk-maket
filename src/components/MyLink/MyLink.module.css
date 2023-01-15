@@ -1,0 +1,16 @@
+.my-navlink{
+    display: flex;
+    align-items: center;
+    font-size: calc(1px + 13 * (100vw / 1280));
+    text-decoration: none;
+    color: #424243;
+}
+
+.my-navlink:hover{
+    color: rgb(175, 175, 175);
+}
+@media screen and (max-width: 790px) {
+    .my-navlink{
+        font-size: calc(1px + 13 * (100vw / 1280));
+    }
+}   
